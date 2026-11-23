@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio d'Emilie Tankou, étudiante en développement web et mobile, à la recherche d'une alternance dès octobre 2026.">
+  <meta name="theme-color" content="#111111">
+  <title>Emilie Tankou — Développeuse Web</title>
+
+  <!-- Aperçu lors du partage du lien -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:title" content="Emilie Tankou — Développeuse Web">
+  <meta property="og:description" content="Étudiante en développement web et mobile, je recherche une alternance dès octobre 2026.">
+  <meta property="og:image" content="images/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23111'/%3E%3Ctext x='32' y='44' font-family='Arial' font-weight='700' font-size='32' text-anchor='middle' fill='%23fff'%3EET%3C/text%3E%3Ccircle cx='53' cy='45' r='4' fill='%23315bff'/%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/devicon.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <a href="#main" class="skip-link">Aller au contenu</a>
+  <div class="progress" aria-hidden="true"></div>
+
+  <header class="header">
+    <a href="#accueil" class="logo" aria-label="Emilie Tankou — Accueil">ET<span>.</span></a>
+
+    <button class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="navigation">
+      <span></span><span></span>
+    </button>
+
+    <nav class="navigation" id="navigation" aria-label="Navigation principale">
+      <a href="#apropos">À propos</a>
+      <a href="#competences">Compétences</a>
+      <a href="#projets">Projets</a>
+      <a href="#contact" class="nav-contact">Contact <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- HERO -->
+    <section class="hero section" id="accueil">
+      <canvas id="code-rain" aria-hidden="true"></canvas>
+
+      <div class="hero-content">
+        <p class="eyebrow"><span class="blue-dot"></span> PORTFOLIO — 2026</p>
+
+        <h1>
+          <span class="line"><span style="--d: 0.05s">Je crée des</span></span>
+          <span class="line"><span style="--d: 0.18s">expériences</span></span>
+          <span class="line"><span style="--d: 0.31s" class="outline-text">digitales.</span></span>
+        </h1>
+
+        <div class="hero-bottom">
+          <p>
+            Étudiante en développement web et mobile,
+            je conçois des interfaces et développe des
+            solutions web fonctionnelles.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projets" class="btn">Découvrir mes projets <span aria-hidden="true">↘</span></a>
+            <a href="#contact" class="btn btn-outline">Me contacter</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-side" aria-hidden="true">
+        <div class="hero-visual">
+          <div class="visual-top">
+            <span>DESIGN & DEVELOPMENT</span>
+            <span>01 / 04</span>
+          </div>
+          <div class="graphic">
+            <div class="graphic-circle"></div>
+            <div class="graphic-square"></div>
+            <div class="graphic-line"></div>
+            <span class="graphic-letter">E.</span>
+          </div>
+          <div class="visual-bottom">
+            <span>EMILIE TANKOU</span>
+            <span>WEB DEVELOPER</span>
+          </div>
+        </div>
+
+        <div class="code-card">
+          <div class="code-card-bar">
+            <i></i><i></i><i></i>
+            <span>emilie.js</span>
+          </div>
+<pre><code id="typed-code">const emilie = {
+  role: "Dev Web &amp; Mobile",
+  stack: ["React", "Symfony"],
+  alternance: "Oct. 2026",
+};</code></pre>
+        </div>
+
+        <div class="badge">
+          <svg viewBox="0 0 120 120">
+            <defs>
+              <path id="badge-circle" d="M60,60 m-45,0 a45,45 0 1,1 90,0 a45,45 0 1,1 -90,0"/>
+            </defs>
+            <text>
+              <textPath href="#badge-circle" textLength="280" lengthAdjust="spacing">ALTERNANCE 2026 • OPEN TO WORK • </textPath>
+            </text>
+          </svg>
+          <span class="badge-arrow">↗</span>
+        </div>
+      </div>
+
+      <div class="availability">
+        <span class="blue-dot pulse"></span>
+        Disponible pour une alternance — Octobre 2026
+      </div>
+    </section>
+
+    <!-- À PROPOS -->
+    <section class="about section" id="apropos">
+      <div class="section-heading">
+        <p class="eyebrow">01 — QUI SUIS-JE ?</p>
+        <span class="section-index">À PROPOS</span>
+      </div>
+
+      <div class="about-content">
+        <div class="about-title">
+          <h2>
+            Curieuse<br>
+            de nature.<br>
+            <span>Développeuse</span><br>
+            par passion.
+          </h2>
+        </div>
+
+        <div class="about-text">
+          <p class="about-intro">Bonjour, moi c'est Emilie.</p>
+
+          <p>
+            Depuis toute petite, j'ai toujours été attirée par la technologie. Je m'imaginais déjà concevoir les appareils que j'utilisais au quotidien, comme les ordinateurs ou les téléphones. Puis, en découvrant les applications, les réseaux sociaux et tous ces outils numériques qui facilitaient la vie de leurs utilisateurs, ma curiosité a évolué : je ne voulais plus seulement imaginer les objets, je voulais comprendre comment ils fonctionnaient et, surtout, comment les créer.
+          </p>
+
+          <p>
+            C'est au lycée, lors de mon baccalauréat technologique STI2D, que j'ai découvert le code pour la première fois. Cette découverte a été un véritable déclic. J'ai compris que le développement me permettrait de donner vie à mes idées, d'expérimenter et de créer sans cesse de nouvelles choses.
+          </p>
+
+          <p>
+            Aujourd'hui, je souhaite à mon tour concevoir des expériences numériques utiles, accessibles et capables de marquer le quotidien de leurs utilisateurs. Curieuse et motivée, je recherche une alternance qui me permettra de continuer à apprendre, de développer mes compétences et de gagner en expérience auprès de professionnels.
+          </p>
+
+          <a href="#contact" class="text-link light-link">
+            Parlons de votre projet <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="about-facts">
+        <div class="fact">
+          <span>FORMATION</span>
+          <strong>Bachelor 3</strong>
+          <p>Développement Web & Mobile</p>
+        </div>
+        <div class="fact">
+          <span>RYTHME</span>
+          <strong>4 jours / 1 jour</strong>
+          <p>Entreprise / École</p>
+        </div>
+        <div class="fact">
+          <span>LOCALISATION</span>
+          <strong>Paris</strong>
+          <p>Île-de-France</p>
+        </div>
+        <div class="fact">
+          <span>DISPONIBILITÉ</span>
+          <strong>Octobre 2026</strong>
+          <p>12 mois ou plus</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- COMPÉTENCES -->
+    <section class="skills section" id="competences">
+      <div class="section-heading">
+        <p class="eyebrow">02 — MON SAVOIR-FAIRE</p>
+        <span class="section-index">COMPÉTENCES</span>
+      </div>
+
+      <div class="skills-intro">
+        <h2>Des idées au<br><span>développement.</span></h2>
+        <p>
+          Les technologies et outils que j'utilise pour imaginer,
+          construire et faire évoluer des projets web.
+        </p>
+      </div>
+
+      <div class="skills-groups">
+
+        <div class="skill-group">
+          <h3><span>Front-end</span><span>05</span></h3>
+          <ul class="skill-list">
+            <li class="skill-item"><i class="devicon-html5-plain" aria-hidden="true"></i>HTML5</li>
+            <li class="skill-item"><i class="devicon-css3-plain" aria-hidden="true"></i>CSS3</li>
+            <li class="skill-item"><i class="devicon-javascript-plain" aria-hidden="true"></i>JavaScript</li>
+            <li class="skill-item"><i class="devicon-react-original" aria-hidden="true"></i>React</li>
+            <li class="skill-item"><i class="devicon-vitejs-plain" aria-hidden="true"></i>Vite</li>
+          </ul>
+        </div>
+
+        <div class="skill-group">
+          <h3><span>Back-end</span><span>03</span></h3>
+          <ul class="skill-list">
+            <li class="skill-item"><i class="devicon-php-plain" aria-hidden="true"></i>PHP</li>
+            <li class="skill-item"><i class="devicon-symfony-original" aria-hidden="true"></i>Symfony</li>
+            <li class="skill-item"><i class="devicon-nodejs-plain" aria-hidden="true"></i>Node.js</li>
+          </ul>
+        </div>
+
+        <div class="skill-group">
+          <h3><span>Bases de données</span><span>02</span></h3>
+          <ul class="skill-list">
+            <li class="skill-item"><i class="devicon-mysql-plain" aria-hidden="true"></i>MySQL</li>
+            <li class="skill-item"><i class="devicon-postgresql-plain" aria-hidden="true"></i>PostgreSQL</li>
+          </ul>
+        </div>
+
+        <div class="skill-group">
+          <h3><span>Outils</span><span>03</span></h3>
+          <ul class="skill-list">
+            <li class="skill-item"><i class="devicon-git-plain" aria-hidden="true"></i>Git</li>
+            <li class="skill-item"><i class="devicon-github-original" aria-hidden="true"></i>GitHub</li>
+            <li class="skill-item"><i class="devicon-figma-plain" aria-hidden="true"></i>Figma</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- PROJETS -->
+    <section class="projects section" id="projets">
+      <div class="section-heading">
+        <p class="eyebrow">03 — CE QUE JE CONSTRUIS</p>
+        <span class="section-index">PROJETS</span>
+      </div>
+
+      <div class="projects-intro">
+        <h2>Une sélection<br>de <span>réalisations.</span></h2>
+        <p>Des projets personnels et techniques qui illustrent mon évolution.</p>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- DEV HELPER -->
+        <article class="project-card">
+          <div class="project-image">
+            <div class="browser-bar">
+              <i></i><i></i><i></i>
+              <span class="browser-url">dev-helper-coral.vercel.app</span>
+            </div>
+            <a href="https://dev-helper-coral.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-shot" tabindex="-1" aria-hidden="true">
+              <img src="images/devhelper.png" alt="" loading="lazy" decoding="async">
+              <span class="project-cta">↗</span>
+            </a>
+          </div>
+
+          <div class="project-info">
+            <div class="project-meta">
+              <span>01 / FRONTEND</span>
+              <span>2025</span>
+            </div>
+
+            <h3>Dev-Helper</h3>
+
+            <p class="project-description">
+              Développement d'un espace personnel pensé pour les
+              développeurs. L'application permet de centraliser des
+              notes, des commandes utiles et des checklists dans
+              une interface simple et organisée.
+            </p>
+
+            <p class="project-detail">
+              Réalisé avec React et Vite, le projet utilise le
+              localStorage pour conserver les informations de
+              l'utilisateur. L'objectif était de créer un outil
+              pratique, intuitif et facile à utiliser au quotidien.
+            </p>
+
+            <ul class="project-tags" aria-label="Technologies utilisées">
+              <li>React</li><li>Vite</li><li>JavaScript</li>
+              <li>CSS</li><li>localStorage</li>
+            </ul>
+
+            <div class="project-links">
+              <a href="https://dev-helper-coral.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn-sm btn-sm--solid">
+                Voir le projet <span aria-hidden="true">↗</span><span class="visually-hidden"> Dev-Helper (nouvel onglet)</span>
+              </a>
+              <a href="https://github.com/emilie-tankou/Dev-Helper" target="_blank" rel="noopener noreferrer" class="btn-sm">
+                Code GitHub <span aria-hidden="true">↗</span><span class="visually-hidden"> Dev-Helper (nouvel onglet)</span>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- ISAIAH RASHAD -->
+        <article class="project-card">
+          <div class="project-image">
+            <div class="browser-bar">
+              <i></i><i></i><i></i>
+              <span class="browser-url">isaiah-rashad.vercel.app</span>
+            </div>
+            <a href="https://isaiah-rashad.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-shot" tabindex="-1" aria-hidden="true">
+              <img src="images/isaiah.png" alt="" loading="lazy" decoding="async">
+              <span class="project-cta">↗</span>
+            </a>
+          </div>
+
+          <div class="project-info">
+            <div class="project-meta">
+              <span>02 / FULL STACK</span>
+              <span>2025 — 2026</span>
+            </div>
+
+            <h3>Isaiah Rashad</h3>
+
+            <p class="project-description">
+              Création d'un site vitrine consacré à l'univers musical
+              de l'artiste Isaiah Rashad. Le projet a évolué d'une
+              première version utilisant Firebase vers une architecture
+              backend développée avec Symfony et PostgreSQL.
+            </p>
+
+            <p class="project-detail">
+              J'ai travaillé sur la structure du site, l'intégration
+              frontend et la mise en place d'une API. J'ai également
+              développé l'authentification avec JWT et résolu plusieurs
+              problématiques techniques, notamment liées au CORS.
+            </p>
+
+            <ul class="project-tags" aria-label="Technologies utilisées">
+              <li>HTML</li><li>CSS</li><li>JavaScript</li>
+              <li>Symfony</li><li>PHP</li><li>PostgreSQL</li><li>JWT</li>
+            </ul>
+
+            <div class="project-links">
+              <a href="https://isaiah-rashad.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn-sm btn-sm--solid">
+                Voir le projet <span aria-hidden="true">↗</span><span class="visually-hidden"> Isaiah Rashad (nouvel onglet)</span>
+              </a>
+              <a href="https://github.com/emilie-tankou/isaiah-rashad" target="_blank" rel="noopener noreferrer" class="btn-sm">
+                Code GitHub <span aria-hidden="true">↗</span><span class="visually-hidden"> Isaiah Rashad (nouvel onglet)</span>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- BUGTRACKER -->
+        <article class="project-card">
+          <div class="project-image">
+            <div class="browser-bar">
+              <i></i><i></i><i></i>
+              <span class="browser-url">bugtracker.alwaysdata.net</span>
+            </div>
+            <a href="https://bugtracker.alwaysdata.net/" target="_blank" rel="noopener noreferrer" class="project-shot" tabindex="-1" aria-hidden="true">
+              <img src="images/bugtracker.png" alt="" loading="lazy" decoding="async">
+              <span class="project-cta">↗</span>
+            </a>
+          </div>
+
+          <div class="project-info">
+            <div class="project-meta">
+              <span>03 / BACKEND</span>
+              <span>2025</span>
+            </div>
+
+            <h3>BugTracker</h3>
+
+            <p class="project-description">
+              Création d'une application de suivi de bugs permettant
+              de centraliser et d'organiser les problèmes rencontrés
+              dans un projet.
+            </p>
+
+            <p class="project-detail">
+              Ce projet m'a permis de travailler avec PHP et MySQL
+              pour gérer les données côté serveur, tout en construisant
+              une interface avec HTML, CSS et JavaScript.
+            </p>
+
+            <ul class="project-tags" aria-label="Technologies utilisées">
+              <li>HTML</li><li>CSS</li><li>JavaScript</li>
+              <li>PHP</li><li>MySQL</li>
+            </ul>
+
+            <div class="project-links">
+              <a href="https://bugtracker.alwaysdata.net/" target="_blank" rel="noopener noreferrer" class="btn-sm btn-sm--solid">
+                Voir le projet <span aria-hidden="true">↗</span><span class="visually-hidden"> BugTracker (nouvel onglet)</span>
+              </a>
+              <a href="https://github.com/emilie-tankou/bugtracker" target="_blank" rel="noopener noreferrer" class="btn-sm">
+                Code GitHub <span aria-hidden="true">↗</span><span class="visually-hidden"> BugTracker (nouvel onglet)</span>
+              </a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact section" id="contact">
+      <div class="contact-top">
+        <p class="eyebrow">04 — ET SI ON ÉCHANGEAIT ?</p>
+        <span>CONTACT</span>
+      </div>
+
+      <div class="contact-content">
+        <div class="contact-message">
+          <h2>Un projet ?<br><span>Une opportunité ?</span></h2>
+          <p>
+            Je suis à la recherche d'une alternance en développement web
+            à partir d'octobre 2026. N'hésitez pas à me contacter !
+          </p>
+
+          <button type="button" class="copy-btn" data-copy="emilie.tankou@icloud.com">
+            <span class="copy-label">Copier l'email</span>
+            <span aria-hidden="true">⧉</span>
+          </button>
+          <span class="visually-hidden" id="copy-status" role="status" aria-live="polite"></span>
+        </div>
+
+        <div class="contact-details">
+          <a href="mailto:emilie.tankou@icloud.com" class="contact-row">
+            <span>EMAIL</span>
+            <strong>emilie.tankou@icloud.com</strong>
+            <span class="contact-arrow" aria-hidden="true">↗</span>
+          </a>
+
+          <a href="tel:+33614088416" class="contact-row">
+            <span>TÉLÉPHONE</span>
+            <strong>+33 6 14 08 84 16</strong>
+            <span class="contact-arrow" aria-hidden="true">↗</span>
+          </a>
+
+          <a href="https://github.com/emilie-tankou" target="_blank" rel="noopener noreferrer" class="contact-row">
+            <span>GITHUB</span>
+            <strong>emilie-tankou</strong>
+            <span class="contact-arrow" aria-hidden="true">↗</span>
+          </a>
+
+          <!-- ⚠️ Remplace TON-PROFIL par ton identifiant LinkedIn -->
+          <a href="https://www.linkedin.com/in/TON-PROFIL/" target="_blank" rel="noopener noreferrer" class="contact-row">
+            <span>LINKEDIN</span>
+            <strong>Mon profil LinkedIn</strong>
+            <span class="contact-arrow" aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a href="#accueil" class="logo" aria-label="Retour en haut">ET<span>.</span></a>
+    <p>© <span id="year">2026</span> Emilie Tankou — Portfolio</p>
+    <a href="#accueil">Retour en haut ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
